@@ -1,10 +1,19 @@
 'use strict';
 
 // Call this function when the page loads (the "ready" event)
+/*
 $(document).ready(function() {
 	initializePage();
-})
+	$(".click-listener").click(function(){
+		//grab name frm HTML
+		var name = $(this).first().text().trim();
 
+		var newName = anagrammedName(name);
+
+		$(this).first().text(newName);
+	});
+})
+*/
 /*
  * Function that is called when the document is ready.
  */
